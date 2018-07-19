@@ -7,7 +7,7 @@ class Zkcli < Formula
 	depends_on "dep" => :build
 
 	def install
-		system "gobuild.sh"
+		system "./gobuild.sh"
 		bin.install ".gobuild/bin/zkcli" => "zkcli"
 	end
 
