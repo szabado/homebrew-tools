@@ -1,7 +1,7 @@
 class Zkcli < Formula
 	homepage "https://github.com/fJancsoSzabo/zkcli"
 	url "https://github.com/fJancsoSzabo/zkcli/archive/v2.0.1-beta.tar.gz"
-	sha256 "75884f191894ad30205a4276a8a4893704d4d8b95edb74e235b29187ac2a396b"
+	sha256 "93545eacb4125e380252b9dfcc2fe59bab4d76f9417597c2d7a938fdd7b57e06"
 
 	depends_on "go" => :build
 	depends_on "dep" => :build
