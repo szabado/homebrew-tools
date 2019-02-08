@@ -7,7 +7,7 @@ class Mssh < Formula
   depends_on "go" => :build
 
   def install
-    system "./gobuild.sh"
+    system "./build.sh"
     bin.install ".gobuild/bin/mssh" => "mssh"
   end
 
