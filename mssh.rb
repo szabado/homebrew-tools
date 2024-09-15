@@ -1,14 +1,12 @@
 class Mssh < Formula
   desc "A tool for running multiple commands and ssh jobs in parallel, and easily collecting the results."
   homepage "https://github.com/szabado/mssh"
-  url "https://github.com/szabado/mssh/archive/v0.1.1.tar.gz"
-  sha256 "1ddadf2bcd5bb0df1ee287ae2c45555c601aef1b576bd188d8903ff4770f35f6"
-
-  depends_on "go" => :build
+  url "https://github.com/szabado/mssh/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "1a5469fea79f5839489d0f2740e1eed62b42a54b561e4ac6f826d366278dc4f0"
 
   def install
-    system "./build.sh"
-    bin.install ".gobuild/bin/mssh" => "mssh"
+    system "HERMIT_BIN_INSTALL_DIR=. ./bin/go build"
+    bin.install "mssh" => "mssh"
   end
 
   test do
