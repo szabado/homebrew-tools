@@ -5,6 +5,7 @@ class Cache < Formula
     sha256 "29541aad78a80affe3d5f636c68ab977a24baea479d88caf890891c245b85a53"
   
     def install
+      system "./bin/activate_hermit"
       system "./bin/go build"
       bin.install "cache" => "cache"
     end
