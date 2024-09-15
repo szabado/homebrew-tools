@@ -1,6 +1,6 @@
 # homebrew-tools
 
-Homebrew tap for @szabado's tools.
+Homebrew tap for [@szabado](https://github.com/szabado)'s tools.
 
 ## add this tap
 
