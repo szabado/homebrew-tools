@@ -1,6 +1,6 @@
 # homebrew-tools
 
-Homebrew tap for tools I've created
+Homebrew tap for @szabado's tools.
 
 ## add this tap
 
@@ -8,8 +8,8 @@ Homebrew tap for tools I've created
 brew tap szabado/tools
 ```
 
-## list available tools
+## Available tools
 
-```
-brew search szabado
-```
+- [cache](https://github.com/szabado/cache): A tool to cache the execution of comamnd line tools.
+- [mssh](https://github.com/szabado/mssh): A tool to SSH into multiple servers and execute a command.
+- [zkcli](https://github.com/szabado/zkcli): A Zookeeper CLI, designed for very large Zookeeper instances.
