@@ -1,4 +1,4 @@
-class IDiff < Formula
+class Idiff < Formula
   desc "A tool for diffing the results of pastes."
   homepage "https://github.com/szabado/go-tools/tree/main/cmd/idiff"
   url "https://github.com/szabado/go-tools/archive/refs/tags/v1.0.2.tar.gz"
